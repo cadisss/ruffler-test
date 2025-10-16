@@ -67,17 +67,5 @@ class TestWin(Qwidget):
         self.setLayout(self.h_line)
 
 
-    def next_click(self):
-        self.hide()
-        self.fw = FinalWin()
-
-    def connects(self):
-        self.btn_next.clicked.connect(self.next_click)
-
-    
-    def set_appear(self):
-        self.setWindowTitle(txt_title)
-        self.resize(win_width, win_heigth)
-        self.move(win_x,win_y)
-        
+   
         
